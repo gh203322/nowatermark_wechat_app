@@ -1,49 +1,13 @@
-# douyindownload-miniapp
-##### mosousuo.com 抖音视频去水印微信小程序 记得替换你的appid
-### 解析接口是普通接口只能解析短视频
-#### 其中用到了读取剪辑版数据和相册保存
-#### download 合法域名设置 [https://mp.weixin.qq.com/s/i6ORVdV9tfRjeG3uOirS1A](https://mp.weixin.qq.com/s/i6ORVdV9tfRjeG3uOirS1A)
-> 小程序后台先加入合法域名 https://v.ataobao.vip
-##### 剪辑版数据
-```
-    wx.getClipboardData({
-      success: res => {
-        var str = res.data.trim()
-        if (str) {
-          that.setData({
-            defaultUrl: str
-          })
-        }
-      }
-    })
-    wx.setClipboardData({
-      data: '',
-    })
-```
-##### 保存相册视频
-```
-wx.saveVideoToPhotosAlbum({
-   filePath: file.tempFilePath,
-   success: function (o) {
-       t.showToast('保存成功', 'success'), setTimeout(function () {
-           wx.setClipboardData({
-             data: '',
-           })
-           that.goBack()
-       }, 1000)
-   },
-   fail: function (o) {
-       that.showToast('保存失败')
-   }
-})
-```
-###### git源码地址: [https://github.com/ithere/douyindownload-miniapp](https://github.com/ithere/douyindownload-miniapp)
+# 全能短视频去水印
+### API解析接口服务地址 -- https://github.com/gh203322/stealer
 
-###### 增加个交流群
-![mosousuo](https://ae01.alicdn.com/kf/Hd07388cc388c45c4b172cbe595f2f389t.jpg)
+##### 原项目地址 -- douyindownload-miniapp，感谢原作者！
 
-###### demo和本程序使用的是一个接口
-![mosousuo](qrcode_ms.jpg)
+### 使用教程  
+http://mp.weixin.qq.com/s?__biz=MzA3ODU1NjIwMQ==&mid=300177502&idx=1&sn=04d503ca98bc0553b2701e4ad52e3cfd&chksm=0b5005183c278c0e91fd9800e6c8c90a7a5a98b79c16dbc2ed47cfa9e33ce8eb2dd7988910b6#rd
 
-![mosousuo](mosousuo_1.png)
+### 小程序Demo
+![mosousuo](pic_qocode.png)
+
+![mosousuo](pic_effect.png)
 
