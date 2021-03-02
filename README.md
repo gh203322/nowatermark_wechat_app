@@ -7,7 +7,7 @@ http://mp.weixin.qq.com/s?__biz=MzA3ODU1NjIwMQ==&mid=300177502&idx=1&sn=04d503ca
 
 ##### 原项目地址 -- ithere/douyindownload-miniapp，感谢原作者！
 
-### 小程序Demo
+### 小程序Demo（图片加载不出来就在微信中搜索 全能短视频去水印）
 ![全能短视频去水印](pic_qocode.png)
 
 ![全能短视频去水印](pic_effect.jpg)
