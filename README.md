@@ -9,5 +9,5 @@ http://mp.weixin.qq.com/s?__biz=MzA3ODU1NjIwMQ==&mid=300177502&idx=1&sn=04d503ca
 ### 小程序Demo
 ![mosousuo](pic_qocode.png)
 
-![mosousuo](pic_effect.png)
+![mosousuo](pic_effect.jpg)
 
