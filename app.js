@@ -15,6 +15,6 @@ App({
   },
   globalData: {
     userInfo: null,
-    baseUrl: 'https://mrmonster.top:11015'
+    baseUrl: '换成你自己的域名或IP地址'
   }
 });
